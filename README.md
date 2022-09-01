@@ -1,2 +1,2 @@
 # SameGame
-SameGame java implementation (School project)
+ SameGame implementation (School project)

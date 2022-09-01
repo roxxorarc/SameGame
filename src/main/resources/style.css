@@ -1,0 +1,52 @@
+#root {
+    -fx-background-color: linear-gradient(to bottom, rgba(18,18,18,1), rgba(80,80,80,1));
+}
+
+#menu {
+    -fx-min-width: 300;
+    -fx-min-height: 250;
+    -fx-max-width: 300;
+    -fx-max-height: 250;
+}
+
+#board {
+    -fx-vGap : 1;
+    -fx-hGap: 1;
+    -fx-alignment: center;
+}
+
+#bot, #top {
+    -fx-padding: 10, 0, 10, 10;
+    -fx-spacing : 10;
+}
+
+
+#scoreText, #scoreNumber, #lastScored, #remainingBubbles, #size, #difficulty, #scored{
+    -fx-font-size: 1.8em;
+}
+
+Text, Label {
+    -fx-fill: #ecebe9;
+    -fx-text-fill:#ecebe9;
+}
+
+Button{
+    -fx-background-color: #ecebe9;
+    -fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-radius: 50;
+    -fx-padding: 10 20 10 20;
+    -fx-font-size: 1.5em;
+    -fx-text-fill: #311c09;
+}
+
+HBox, VBox{
+    -fx-spacing: 1em;
+}
+
+#menu {
+    -fx-padding: 1em;
+}
+
+Rectangle {
+    -fx-opacity: 0.6;
+}
